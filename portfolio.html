@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Swara Gharat | Portfolio</title> 
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Fira+Code&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #000;
+      color: #eee;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #111;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 20px;
+      box-shadow: 0 2px 8px rgba(0,255,100,0.2);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header h1 {
+      font-size: 28px;
+      color: #50C878;
+      font-family: 'Fira Code', monospace;
+      margin-bottom: 10px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      margin: 10px 15px;
+      text-decoration: none;
+      color: #ccc;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #50C878;
+    }
+
+    section {
+      padding: 70px 60px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #111;
+      border-radius: 12px;
+      padding: 60px 30px;
+      text-align: center;
+    }
+
+    .hero-img img {
+      width: 220px;
+      height: auto;
+      border-radius: 50%;
+      background: #50C878;
+      padding: 10px;
+      margin-bottom: 25px;
+    }
+
+    .hero-text h2 {
+      font-size: 40px;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero-text span {
+      color: #50C878;
+    }
+
+    .hero-text p {
+      font-size: 20px;
+      color: #ccc;
+      margin: 15px 0 25px;
+    }
+
+    .btn {
+      background: #50C878;
+      color: #000;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 30px;
+      font-size: 16px;
+      transition: background 0.3s;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      background: #3eb368;
+    }
+
+    .social-icons {
+      margin-top: 10px;
+    }
+
+    .social-icons a {
+      font-size: 24px;
+      margin: 0 10px;
+      color: #50C878;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #3eb368;
+    }
+
+    h2 {
+      font-size: 34px;
+      color: #50C878;
+      margin-bottom: 20px;
+    }
+
+    #career,
+    #skills,
+    #projects {
+      background: #111;
+      border-radius: 10px;
+      padding: 40px 30px;
+      margin-top: 20px;
+    }
+
+    #career p,
+    #skills p,
+    #projects p {
+      font-size: 18px;
+      color: #ccc;
+    }
+
+    #projects ul {
+      margin-top: 15px;
+      padding-left: 20px;
+    }
+
+    #projects li {
+      margin-bottom: 20px;
+      color: #ccc;
+    }
+
+    #projects strong {
+      color: #50C878;
+    }
+
+    #contact {
+      text-align: center;
+    }
+
+    #contact a.btn {
+      margin-top: 20px;
+      display: inline-block;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      color: #666;
+      font-size: 14px;
+      margin-top: 50px;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        padding: 40px 20px;
+      }
+
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      header {
+        padding: 20px;
+      }
+
+      header h1 {
+        margin-bottom: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1><i class="fas fa-code"></i> Swara</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#career">Career Objective</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a> <!-- New menu item added here -->
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-img">
+      <img src="D:\USER DATA\Downloads\1735878606048.jpg" alt="Swara Avatar" />
+    </div>
+    <div class="hero-text">
+      <h2>This is <span>Swara Gharat</span></h2>
+      <p>Front-End Web Developer</p>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/swara-gharat-b6a566344" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/swaragharatt" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="career">
+    <h2>Career Objective</h2>
+    <p>
+      Enthusiastic data science student with a foundation in programming and data analysis.
+      Eager to apply foundational knowledge to solve real-world problems and contribute to meaningful projects
+      while further developing skills in data-driven decision-making.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <strong>Techithon 2024:</strong> IoT-Based Trash Bot with CNN Mechanism<br>
+        Designed a robotic system capable of differentiating between trash and useful items using CNN.<br>
+        Implemented IoT sensors and an arm gripper for autonomous waste collection.<br>
+        Improved waste sorting efficiency by 30% through advanced object recognition.
+      </li>
+      <li>
+        <strong>Smart Blind Stick:</strong><br>
+        Developed a smart navigation stick with ultrasonic sensors, GPS tracker, and haptic feedback for obstacle detection.
+      </li>
+      <li>
+        <strong>Python Number Guessing Game:</strong><br>
+        Built a Number Guessing Game using Python to engage users in an interactive guessing challenge.
+      </li>
+      <li>
+        <strong>Python Turtle Graphics:</strong><br>
+        Designed a Python Turtle program to create patterns and shapes.
+      </li>
+      <li>
+        <strong>IoT Workshop:</strong><br>
+        LED integrated buzzer notes with Arduino kit using CSS coding.
+      </li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <p>
+      <strong>Programming Languages:</strong> Python, C++, CSS, HTML<br>
+      <strong>Tools:</strong> Google Data Studio, Matplotlib, Excel, Tableau, Power BI, Adobe Photoshop, Canva, Figma<br>
+      <strong>Other Skills:</strong> Strategic Thinking, Great Visualization Skills, Implementation and Evaluation,
+      Consumer Trends, Good Leadership
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:swara37ds@gmail.com" style="color:#50C878;">swara37ds@gmail.com</a></p>
+    <a href="https://docs.google.com/document/d/1mTUyVaPCBU2f_OVfOeQdmvfKpMlBxlRs/edit" download class="btn">Download Resume</a>
+  </section>
+
+  <footer>
+    &copy; 2025 Swara Gharat. All rights reserved.
+  </footer>
+
+</body>
+</html>
