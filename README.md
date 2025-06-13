@@ -1,6 +1,3 @@
-Here's a cleaned-up and professional version of your `README.md` with added **Author** and **Output** sections, matching the tone and style you requested earlier:
-
----
 
 # Swara Gharat - Personal Portfolio Website
 
